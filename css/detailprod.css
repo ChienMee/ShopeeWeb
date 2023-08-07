@@ -1,0 +1,491 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f5f5f5;
+}
+header{
+    width: 100%;
+    height: 10%;
+    background-image: linear-gradient(180deg,rgba(246,66,45,1)55%,rgba(254,99,50, 1));
+}
+.container-top{
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+}
+.top-right{
+    position: absolute;
+    width: 60%;
+    height: 20px;
+}
+.top-right a{
+    text-decoration: none;
+    color:  hsla(0,0%,100%,.9);
+    padding-right: 5px;
+}
+.top-left{
+    margin-left: 60%;
+    width: 40%;
+    height: 20px;
+    text-align: right;
+    display: inline-block;
+}
+.top-left a{
+    padding-right: 15px;
+    text-decoration: none;
+    color:  hsla(0,0%,100%,.9);
+}
+.login_registry{
+    display: inline-block;
+    text-align: right;
+    margin-left: 10px;
+}
+.bot-main{
+    position: relative;
+    height: 100px;
+    width: 100%;
+}
+.logo{
+    position: absolute;
+    height: 100px;
+    width: 15%;
+    margin-top: 1%;
+}
+.logoin{
+    color: hsla(0,0%,100%,.9);
+}
+.logo a img{
+    width: 100%;
+}
+.search{
+    position: relative;
+    margin-left: 15%;
+    max-width: 70%;
+    height: 100px;
+}
+.top-search {
+    position: relative;
+    display: inline-block;
+    margin-top: 3%;
+    width: 100%;
+    height: 50%;
+}
+.search-bar{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.search-btn{
+    position: absolute;
+    display: flex;
+    margin: 2px;
+    height: 98%;
+    margin-left: 94%;
+}
+.top-search input[type=text]{
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    padding-left: 1% ;
+    height: 80%;
+    width: 100%;
+}
+.search-btn button{
+    position: absolute;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    width: 50px;
+    height: 75%;
+    background-color: orangered;
+}
+.search-btn button:hover,
+.search-btn button:active{
+    background-color: rgba(254,99,50, 1);
+    cursor: pointer;
+}
+.bot-search{
+    width: 100%;
+    height: 30%;
+    text-align: left;
+}
+.bot-search a{
+    position: relative;
+    text-decoration: none;
+    color:  hsla(0,0%,100%,.9);
+    font-size: 15px;
+    padding-right: 10px;
+}
+.cart{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 100px;
+    width: 15%;
+    text-align: center;
+}
+.cart ion-icon {
+    margin-top: 20%;
+    font-size: 28px;
+    color: hsla(0,0%,100%,.9);
+}
+.content{
+    content: "";
+    height: 0.9375rem;
+    width: 0;
+    border-left: 1px solid hsla(0,0%,100%,.22);
+    border-right: 1px solid hsla(0,0%,100%,.22);
+    position: absolute;
+    left: -6px;
+    top: calc(50% - 7px);
+}
+/* ----------------------------------------
+-----------------------------------------
+------------------------------------------- */
+.main-prod{
+    width: 80%;
+    height: 757px;
+    margin: 0 auto;
+    display: flex;
+    background-color:white;
+}
+.left-img{
+    width:40%;
+    height: 100%;
+}
+.right-detail{
+    width: 60%;
+    height: 100%;
+}
+.big-img{
+    width: 100%;
+    height: 60%;
+}
+.big-img img{
+    width: 99%;
+    height: 99%;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+.img-below{
+    width: 100%;
+    height: 15%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.img-below input{
+    position: absolute;
+    height: 48px;
+    width: 28px;
+    background-color: rgba(0, 0, 0, .08);
+    border:none;
+    color: white;
+    font-size: 28px;
+}
+.img-below #foward{
+    right: 0px;
+}
+.small-img{
+    width: 19%;
+    height: 90%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 1%;
+}
+.small-img img{
+    display: flex;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+.bottom-left{
+    display: flex;
+    width: 99%;
+    height: 5%;
+    margin-left:1%;
+    align-items: end;
+}
+.height-line{
+    content: " ";
+    height: 25px;
+    width: 2px;
+    background-color: #bdbdbd;
+}
+.share-link{
+    width: 60%;
+    height: 65%;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+}
+.like-section{
+    width: 40%;
+    height: 65%;
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+}
+.link-img{
+    width: 10%;
+    height: 100%;
+    margin-left: 2%;
+}
+.link-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.inner-right{
+    width: 98%;
+    height: 98%;
+    margin: 0 auto;
+    margin-top: 1%;
+}
+.d-name{
+    width: 98%;
+    height: 8%;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+.evaluate{
+    width: 98%;
+    height: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rate{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rate ion-icon{
+    color: #ee4d2d;
+}
+.rate a{
+    color: #ee4d2d;
+}
+.rate #luck{
+    color: black;
+}
+.report{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.report a{
+    text-decoration: none;
+    color: #bdbdbd;
+}
+.cost{
+    width: 98%;
+    height: 8%;
+    background-color: #fafafa;
+    display: flex;
+    align-items: center;
+}
+.old-cost{
+    width: 10%;
+    height: 30%;
+    margin-left: 4%;
+}
+.new-cost{
+    width: 15%;
+    height: 60%;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    color: #ee4d2d;
+}
+.discount{
+    width: 9%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 8%;
+    margin-left: 2%;
+    background-color: #ee4d2d;
+    font-size: 14px;
+}
+.couple{
+    width: 98%;
+    height: 8%;
+    display: flex;
+    align-items: center;
+}
+.tittle{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 4%;
+}
+.couple-discount{
+    display: flex;
+    width: 40%;
+    height: 60%;
+}
+.couple-discount img{
+    width: 100%;
+    height: 100%;
+}
+.combo{
+    width: 98%;
+    height: 8%;
+    display: flex;
+    align-items: center;
+}
+.combo-discount{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 15%;
+    height: 60%;
+    border: #ee4d2d 2px solid;
+    color: #ee4d2d;
+}
+.combo-discount:hover{
+    cursor: pointer;
+}
+.insurance{
+    width: 98%;
+    height: 8%;
+    display: flex;
+    align-items: center;
+}
+.insurance-content{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+}
+.delivery{
+    display: flex;
+    align-items: center;
+    width: 98%;
+    height: 8%;
+}
+.i-inner{
+    width: 25%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+}
+.i-inner img{
+    width: 30px;
+    margin-right: 5px;
+}
+.blank{
+    width: 98%;
+    height: 16%;
+    display: flex;
+}
+.p-blank{
+    width: 80%;
+    height: 100%;
+}
+.ip-blank{
+    width: 80%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+.ip-blank img{
+    width: 8%;
+    height: 32%;
+}
+.ufb{
+    width: 8%;
+    height: 32%;
+}
+.color{
+    width: 98%;
+    height: 8%;
+    display: flex;
+}
+.color-type{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+}
+.cld{
+    width: 20%;
+    height: 50%;
+    border: gray solid 2px;
+    margin-right: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.quantity{
+    width: 98%;
+    height: 8%;
+    display: flex;
+    align-items: center;
+}
+.quantity-btn{
+    display: flex;
+    width: 20%;
+    height: 75%;
+}
+.quantity-btn input{
+    width: 30%;
+    height: 90%;
+    font-size: larger;
+    background-color: rgba(0, 0, 0, .08);
+    box-shadow: none;
+}
+.quantity-n{
+    width: 30%;
+    height: 90%;
+    border: gray 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.inventory{
+    width: 20%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, .8);
+}
+.submit-btn{
+    width: 94%;
+    height: 8%;
+    display: flex;
+    align-items: center;
+    margin-left: 4%;
+}
+.submit-btn button{
+    margin-right: 2%;
+}
+.submit-btn #cart{
+    width: 30%;
+    height: 80%;
+    font-size: 15px;
+    background-color: #ffeee8;
+    border: #ee4d2d 1px solid;
+    color: #ee4d2d;
+}
+.submit-btn #buy{
+    width: 15%;
+    height: 80%;
+    font-size: 15px;
+    color: white;
+    background-color: #ee4d2d;
+}

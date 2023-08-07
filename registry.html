@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/registry.css">
+    <title>Đăng ký</title>
+</head>
+<body>
+    <div class="login-header">
+        <div class="login-header-container">
+            <div class="login-header-content">
+                <div class="login-logo">
+                    <img src="./img/rsz_shopee-logo-png-1.png" alt="logo">
+                </div>
+                <div class="login-tittle">
+                    Đăng ký
+                </div>
+            </div>
+            <div class="login-header-question">
+                <a href="#">Bạn cần giúp đỡ?</a>
+            </div>
+        </div>
+    </div>
+    <div class="main-body">
+        <div class="form">
+            <h1>Tạo tài khoản Shopee</h1>
+            <div class="form-fill">
+                <input type="text" name="" id="id" placeholder="nhập tài khoản">
+                <label id="idn"></label>
+            </div>
+            
+            <div class="form-fill">
+                <input type="password" name="" id="pass" placeholder="nhập mật khẩu">
+            </div>
+            <div class="form-fill">
+                <input type="password" name="" id="repass" placeholder="xác nhận lại mật khẩu">
+                <label id="passn"></label>
+            </div>
+            <div class="form-fill">
+                <input type="email" name="" id="email" placeholder="email">
+                <label id="emailn"></label>
+            </div>
+            
+            <div class="form-fill">
+                <input type="text" name="" id="tel" placeholder="sô điện thoại">
+                <label id="teln"></label>
+            </div>
+            
+            <div class="form-fill">
+                <div class="security">
+                    <input type="checkbox" name="" id="security">
+                    Tôi đồng ý với <a href="#">chính sách bảo mật</a> & <a href="#">điều khoản</a> của Shopee
+                </div>
+            </div>
+            <div class="form-fill">
+                <button onclick="checkform()">Đăng ký</button>
+            </div>
+        </div>
+    </div>
+    <script src="./js/registry.js"></script>
+</body>
+</html>
